@@ -15,7 +15,8 @@ import javafx.stage.Stage;
  *
  * @author MichaelO
  */
-public class StudentAdminApp extends Application {
+public class StudentAdminApp extends Application implements IExitable
+{
     
     @Override
     public void start(Stage stage) throws Exception {
@@ -25,6 +26,10 @@ public class StudentAdminApp extends Application {
         
         stage.setScene(scene);
         stage.show();
+        
+        stage.setOnCloseRequest(event -> { this.exitClick(); 
+                                           event.consume(); 
+                                         } );
     }
 
     /**

@@ -12,7 +12,7 @@
       <Button fx:id="addCourseButton" layoutX="34.0" layoutY="142.0" mnemonicParsing="false" onAction="#addCourseButtonHandler" prefHeight="31.0" prefWidth="218.0" text="Add Course" />
       <Button fx:id="displayAllCoursesButton" layoutX="34.0" layoutY="179.0" mnemonicParsing="false" onAction="#displayAllCoursesButtonHandler" prefHeight="31.0" prefWidth="218.0" text="Display All Courses" />
       <Button fx:id="exitButton" layoutX="34.0" layoutY="306.0" mnemonicParsing="false" onAction="#exitButtonHandler" text="Exit" />
-      <Label fx:id="headerLabel" layoutX="34.0" layoutY="14.0" text="Student Admin v0.08">
+      <Label fx:id="headerLabel" layoutX="34.0" layoutY="14.0" text="Student Admin v0.09">
          <font>
             <Font name="System Bold" size="24.0" />
          </font>

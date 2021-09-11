@@ -17,7 +17,8 @@ import javafx.scene.control.Label;
  *
  * @author MichaelO
  */
-public class FXMLDocumentController implements Initializable {
+public class FXMLDocumentController implements Initializable, IExitable 
+{
 
     private Label label;
     @FXML
@@ -76,7 +77,8 @@ public class FXMLDocumentController implements Initializable {
     @FXML
     private void exitButtonHandler(ActionEvent event)
     {
-        System.exit (0); // Exit app
+        //System.exit (0); // Exit app
+        this.exitClick();
     }
 
     @FXML
