@@ -30,6 +30,10 @@ public class StudentAdminApp extends Application implements IExitable
         stage.setOnCloseRequest(event -> { this.exitClick(); 
                                            event.consume(); 
                                          } );
+        System.out.println ("StudentAdminApp -> start ...");
+        
+        // Load the data from file(s) ...
+    
     }
 
     /**

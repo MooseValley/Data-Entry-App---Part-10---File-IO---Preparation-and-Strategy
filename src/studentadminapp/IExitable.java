@@ -27,6 +27,8 @@ public interface IExitable
             if (response == ButtonType.OK) 
             {
                 System.out.println ("Exiting application ...");
+                
+                // Save the data to file(s)
 
                 Platform.exit();
             }

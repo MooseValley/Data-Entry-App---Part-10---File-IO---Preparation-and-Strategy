@@ -39,6 +39,7 @@ public class FXMLDocumentController implements Initializable, IExitable
     private Label headerLabel;
     @FXML
     private Button displayAllCourseEnrolmentsButton;
+    
 
     private void handleButtonAction(ActionEvent event) {
         System.out.println("You clicked me!");
@@ -46,8 +47,12 @@ public class FXMLDocumentController implements Initializable, IExitable
     }
 
     @Override
-    public void initialize(URL url, ResourceBundle rb) {
+    public void initialize(URL url, ResourceBundle rb) 
+    {
         // TODO
+        System.out.println ("FXMLDocumentController -> initialize ... ");
+        
+        
     }
 
     @FXML
